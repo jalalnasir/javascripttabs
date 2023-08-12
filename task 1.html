@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script type="text/javascript" src="index.js"> </script>
+</head>
+<body>
+   <div class="tab-nav">
+  <a>tab1</a>
+  <a>tab2</a>
+  <a>tab3</a>
+</div>
+<div class="content">
+  <h3>Tab1 Data</h3>
+  <p>My name is jalal and my father name is muhammad nasir and i have done msc from university of haripur now i am free and i am finding job for myself to support m yu family as well as myself. will you please help me in getting job as you know there is difficulties to get government job in Pakistan so i need your help. I have a sentence in my mind that incklude all alophabets in them. Quick brown fox jumpos over lazy dog.</p></div>
+
+  <div class="content">
+    <h3>Tab2 Data</h3>
+    <p> yesMy name is jalal and my father name is muhammad nasir and i have done msc from university of haripur now i am free and i am finding job for myself to support m yu family as well as myself. will you please help me in getting job as you know there is difficulties to get government job in Pakistan so i need your help. I have a sentence in my mind that incklude all alophabets in them. Quick brown fox jumpos over lazy dog.</p></div>
+
+<div class="content">
+  <h3>Tab3 Data</h3>
+    <p>No My name is jalal and my father name is muhammad nasir and i have done msc from university of haripur now i am free and i am finding job for myself to support m yu family as well as myself. will you please help me in getting job as you know there is difficulties to get government job in Pakistan so i need your help. I have a sentence in my mind that incklude all alophabets in them. Quick brown fox jumpos over lazy dog.</p></div>
+
+    <script>
+      document.getElementsByTagName('a')[0] .addEventListener('click',function() {
+      document.getElementsByClassName('content')[0].style.display="block";
+      document.getElementsByClassName('content')[1].style.display="none";
+      document.getElementsByClassName('content')[2].style.display="none";  
+      })
+      document.getElementsByTagName('a')[1] .addEventListener('click',function() {
+      document.getElementsByClassName('content')[1].style.display="block";
+      document.getElementsByClassName('content')[0].style.display="none";
+      document.getElementsByClassName('content')[2].style.display="none";
+
+      })
+      document.getElementsByTagName('a')[2] .addEventListener('click',function() {
+      document.getElementsByClassName('content')[2].style.display="block";
+      document.getElementsByClassName('content')[0].style.display="none";
+      document.getElementsByClassName('content')[1].style.display="none";  
+      })
+    </script>
+ </body>
+ </html>      
